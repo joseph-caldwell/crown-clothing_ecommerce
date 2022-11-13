@@ -2,6 +2,26 @@ import CategoryItem from "../category-item/category-item.component";
 import "./directory.styles.scss";
 
 
+const Navigation = () => {
+  return (
+    <div>
+      <div>
+        <h1>navigation bar</h1>
+      </div>
+    
+    </div>
+  );
+}
+
+const Shop = () => {
+  return (
+    <div>
+      <div>
+        <h1>Shop</h1>
+      </div>
+    </div>
+  );
+}
 
 const Directory = ({ categories }) => {
   return (
